@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Online Banking</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            text-decoration: none;
+            background: #3498db;
+            color: white;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏦 Welcome to Online Banking</h1>
+        <p>Select an option to continue:</p>
+        <a href="/auth/register">Register</a>
+        <a href="/auth/login">Login</a>
+        <a href="/account">Account</a>
+    </div>
+</body>
+</html>
